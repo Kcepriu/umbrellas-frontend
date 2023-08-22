@@ -1,0 +1,27 @@
+.container {
+  @apply mx-auto 
+  w-full  
+  h-screen
+  
+  flex 
+  flex-col 
+  justify-start 
+  
+
+  outline
+  outline-1 
+  outline-red-900
+ 
+  md:max-w-screen-md
+  /* md:bg-blue-600 */
+ 
+  lg:max-w-screen-lg
+  /* lg:bg-green-600 */
+ 
+  xl:max-w-screen-xl
+  /* xl:bg-yellow-500; */;
+}
+
+.wrapContent {
+  @apply py-4;
+}
