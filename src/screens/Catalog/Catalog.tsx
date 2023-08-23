@@ -1,7 +1,23 @@
 import { FC } from "react";
 import Link from "next/link";
 
-async function getData() {
+interface IAtributeProduct {
+  name: string;
+  alternativeText: string | null;
+  caption: string | null;
+  width: number;
+  height: number;
+}
+
+interface IProduct {
+  id: string;
+  attributes: IAtributeProduct;
+}
+interface IResponse {
+  data: IProduct[];
+}
+
+async function getData(): Promise<IResponse> {
   const res = await fetch(
     "https://umbrellas-bac.onrender.com/api/products?populate=*"
   );
