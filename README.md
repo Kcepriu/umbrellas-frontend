@@ -19,12 +19,13 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 # 📚 Repository link.
 
-- [Frontend](https://github.com/Kcepriu/umbrellas-frontend)
+- Frontend
 
-  - [Life page]()
+  - [Repository](https://github.com/Kcepriu/umbrellas-frontend)
+  - [Life page](https://umbrellas-frontend.onrender.com)
 
-- [Backend](https://github.com/Kcepriu/umbrellas-backend)
-
+- Backend
+  - [Repository](https://github.com/Kcepriu/umbrellas-backend)
   - [Life page](https://umbrellas-bac.onrender.com/)
 
 # 📚 References
