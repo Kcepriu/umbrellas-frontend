@@ -1,0 +1,14 @@
+{
+  "app.components.nav.title.root": "Home",
+  "app.components.nav.title.catalog": "Каталог",
+  "app.components.nav.title.contacts": "Контакти",
+  "app.components.nav.title.brands": "Бренди",
+  "app.components.nav.title.guarantees": "Гарантії",
+  "app.components.nav.title.reviews": "Відгуки",
+  "app.components.nav.title.selected": "Вибране",
+  "app.components.nav.title.instructions": "Інструкції",
+  "app.components.nav.title.payment_and_delivery": "Доставка і оплата",
+  "app.components.nav.title.cart": "Корзина",
+  "app.components.nav.title.checkout": "Оформлення замовлення",
+  "app.components.nav.title.account": "Особистий кабіет"
+}
