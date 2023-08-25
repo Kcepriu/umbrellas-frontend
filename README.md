@@ -22,7 +22,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - Frontend
 
   - [Repository](https://github.com/Kcepriu/umbrellas-frontend)
-  - [Life page](https://umbrellas-frontend.onrender.com)
+  - [Life page](https://umbrellas-front.netlify.app/)
 
 - Backend
   - [Repository](https://github.com/Kcepriu/umbrellas-backend)
