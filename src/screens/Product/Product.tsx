@@ -1,28 +1,18 @@
 import { FC } from "react";
+import { fetchOneProduct } from "@/services/fetchProduct";
 interface IParam {
   slug: string;
 }
 
-async function getData(slug: string) {
-  const res = await fetch(
-    `https://umbrellas-bac.onrender.com/api/products/${slug}?populate=*`
-  );
-
-  if (!res.ok) {
-    // This will activate the closest `error.js` Error Boundary
-    throw new Error("Failed to fetch data");
-  }
-
-  return res.json();
-}
-
 const Product: FC<IParam> = async ({ slug }) => {
-  const { data } = await getData(slug);
-  const { attributes } = data;
+  const { data } = await fetchOneProduct(slug);
+  // const { id, attributes } = data[0];
+  const { id, attributes } = data;
 
   return (
     <>
       <div>Product: {slug}</div>
+      <p>id {id}</p>
       <p>name {attributes.name}</p>
       <p>description {attributes.description}</p>
       <p>price {attributes.price}</p>
