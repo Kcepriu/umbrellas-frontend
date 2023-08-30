@@ -1,10 +1,12 @@
 import type { Config } from "tailwindcss";
 
 const config: Config = {
+  // purge: ["./src/**/*.{js,ts,jsx,tsx,mdx}"],
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/screens/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
@@ -14,19 +16,19 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       screens: {
-        sm: "320px",
+        xs: "320px",
         // => @media (min-width: 320px) { ... }
 
-        md: "480px",
+        sm: "480px",
         // => @media (min-width: 480px) { ... }
 
-        lg: "768px",
+        md: "768px",
         // => @media (min-width: 768px) { ... }
 
-        xl: "1280px",
+        lg: "1280px",
         // => @media (min-width: 1280px) { ... }
 
-        "2xl": "1536px",
+        xl: "1536px",
         // => @media (min-width: 1536px) { ... }
       },
     },
