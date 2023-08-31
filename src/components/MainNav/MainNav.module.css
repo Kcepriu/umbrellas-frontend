@@ -13,8 +13,9 @@
   font-medium
   rounded-lg
   border-2
-  hover:bg-indigo-500
-   focus:bg-indigo-500
+  hover:bg-indigo-400
+   focus:bg-indigo-400
+   
    focus:text-gray-100
    hover:text-gray-100
    transition
@@ -29,8 +30,8 @@
   font-medium
   rounded-lg
   border-2
-bg-indigo-400
-  hover:bg-indigo-500
+bg-indigo-500
+  hover:bg-indigo-400
   transition
   cursor-pointer;
 }
